@@ -1,13 +1,12 @@
 public class Q2 {
     public static void main(String[] args) {
-        int i;
-        int x[]={1,2,3,4,5,6,7,8,9,10};
-        int sum=0;
-        for(i=0;i<10;i++)
-            sum = sum + x[i];
-
-        System.out.print(" sum is:");
-        System.out.print( sum );
+        String z=new String("Mississipi");
+        String x=new String("Mississipi");
+        z=z.replace("i","ii");
+        x=x.replace("ss","s");
+        System.out.println(z);
+        System.out.println((z).length());
+        System.out.println(x);
+        System.out.println((x).length());
     }
-
 }
